@@ -13,16 +13,13 @@ example_predict_excel.py
 Ожидаемая структура проекта:
 
 Category_DeepPavlov/
-├── example_predict_excel.py
 ├── data/
-│   └── 18.xlsx
+│   └── jkh_requests.xlsx
+├── outputs/
 ├── predict_model/
-│   ├── config.json
-│   ├── model.safetensors
-│   ├── tokenizer.json
-│   ├── tokenizer_config.json
-│   └── label_encoder.pkl
-└── outputs/
+├── predict_excel.py
+├── README.md
+└── requirements.txt
 
 Перед запуском установите зависимости:
 
