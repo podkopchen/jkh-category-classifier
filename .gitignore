@@ -37,12 +37,12 @@ models/
 
 # Outputs
 outputs/
-18_predictions.xlsx
-18_errors.xlsx
-18_classification_report.xlsx
-18_confusion_matrix.xlsx
-18_error_pairs.xlsx
-18_high_confidence_errors.xlsx
+predictions.xlsx
+errors.xlsx
+classification_report.xlsx
+confusion_matrix.xlsx
+error_pairs.xlsx
+high_confidence_errors.xlsx
 
 # Logs
 *.log
