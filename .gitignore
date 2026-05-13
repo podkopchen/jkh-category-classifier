@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Data with personal/sensitive information
+data/
+*.xlsx
+*.xls
+*.csv
+
+# Model weights and local model artifacts
+predict_model/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Outputs
+outputs/
+18_predictions.xlsx
+18_errors.xlsx
+18_classification_report.xlsx
+18_confusion_matrix.xlsx
+18_error_pairs.xlsx
+18_high_confidence_errors.xlsx
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
