@@ -48,19 +48,19 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 BASE_DIR = Path(__file__).resolve().parent
 
-EXCEL_PATH = BASE_DIR / "data" / "18.xlsx"
+EXCEL_PATH = BASE_DIR / "data" / "jkh_requests.xlsx"
 MODEL_DIR = BASE_DIR / "predict_model"
 LABEL_ENCODER_PATH = MODEL_DIR / "label_encoder.pkl"
 
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-OUTPUT_EXCEL_PATH = OUTPUT_DIR / "18_predictions.xlsx"
-OUTPUT_ERRORS_PATH = OUTPUT_DIR / "18_errors.xlsx"
-OUTPUT_REPORT_PATH = OUTPUT_DIR / "18_classification_report.xlsx"
-OUTPUT_CONFUSION_PATH = OUTPUT_DIR / "18_confusion_matrix.xlsx"
-OUTPUT_ERROR_PAIRS_PATH = OUTPUT_DIR / "18_error_pairs.xlsx"
-OUTPUT_HIGH_CONF_ERRORS_PATH = OUTPUT_DIR / "18_high_confidence_errors.xlsx"
+OUTPUT_EXCEL_PATH = OUTPUT_DIR / "predictions.xlsx"
+OUTPUT_ERRORS_PATH = OUTPUT_DIR / "errors.xlsx"
+OUTPUT_REPORT_PATH = OUTPUT_DIR / "classification_report.xlsx"
+OUTPUT_CONFUSION_PATH = OUTPUT_DIR / "confusion_matrix.xlsx"
+OUTPUT_ERROR_PAIRS_PATH = OUTPUT_DIR / "error_pairs.xlsx"
+OUTPUT_HIGH_CONF_ERRORS_PATH = OUTPUT_DIR / "high_confidence_errors.xlsx"
 
 
 # Названия колонок в исходной Excel-таблице
